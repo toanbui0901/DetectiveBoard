@@ -1,0 +1,7 @@
+{
+  "name": "Bí Ẩn London 1888 - Thám Tử Phố Baker",
+  "description": "Board game trinh thám suy luận thuần text phong cách Sherlock Holmes Consulting Detective với hồ sơ vụ án London thời Victoria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
