@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-parchment: #f7f3e9;
+    --color-parchment-deep: #eee7d5;
+    --color-parchment-border: #dcd2be;
+    --color-ink: #201a15;
+    --color-ink-muted: #685d53;
+    --color-wood: #191512;
+    --color-leather: #2a221b;
+    --color-oxblood: #6b1d1d;
+    --color-gold: #c59b27;
+  }
+
+  body {
+    background-color: #151210;
+    color: #ded6c5;
+    font-family: 'Newsreader', 'Times New Roman', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Custom subtle scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1e1915;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #44382e;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #685647;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-newsreader {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Aged document styling */
+.parchment-page {
+  background-color: #f7f3e9;
+  color: #1e1915;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), inset 0 0 40px rgba(180, 150, 110, 0.15);
+  border: 1px solid #d8cdb8;
+}
+
+.parchment-inset {
+  background-color: #ede5d2;
+  border: 1px solid #d5c8ae;
+}
+
+/* Dark Victorian Cabinet styling */
+.cabinet-panel {
+  background-color: #1e1a16;
+  border: 1px solid #382f27;
+}
+
+.cabinet-panel-hover:hover {
+  background-color: #27221d;
+  border-color: #55473a;
+}

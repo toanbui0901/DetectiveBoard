@@ -1,0 +1,366 @@
+[
+  {
+    "id": "case-ai-1792657535148",
+    "number": 20,
+    "title": "Vụ Án Bí Mật Victorian London",
+    "originalLore": "Jack the Ripper & West End Adventures - Bản Ghi Chép Đặc Biệt AI",
+    "collection": "Jack the Ripper & West End Adventures",
+    "date": "Luân Đôn, Thời Khắc Định Mệnh",
+    "difficulty": "Trung Bình",
+    "category": "Án Mạng Bí Ẩn",
+    "clueQuota": 11,
+    "holmesCluesUsed": 4,
+    "synopsis": "Một bí ẩn đan xen giữa những âm mưu quyền lực tại Victorian London. Nạn nhân để lại lời nhắn dở dang trước khi trút hơi thở cuối cùng.",
+    "initialBriefing": "Tiếng gõ cửa gấp gáp vang lên tại số 221B Baker Street. Thân chủ hốt hoảng bước vào trao cho Holmes một chiếc hộp bọc nhung dính vệt máu khô. Một nhân vật có thế lực tại Victorian London vừa qua đời trong tình cảnh kỳ quái: phòng khóa kín, ngọn nến thơm tỏa mùi xạ hương lạ, và một bức thư bị đốt dở trong lò sưởi. Vụ án đòi hỏi sự quan sát nhạy bén của các thám tử để lật tẩy kẻ thủ ác trong hạn mức 11 manh mối.",
+    "victim": "Nhân vật quyền quý bí ẩn",
+    "crimeScene": "Dinh thự trung tâm Victorian London",
+    "newspaperClipping": {
+      "title": "Bi Kịch Bất Ngờ Tại Victorian London",
+      "date": "Bản in đặc biệt",
+      "content": "Cảnh sát đô thị đang rà soát mọi đầu mối sau cái chết đột ngột của một nhân vật có tầm ảnh hưởng lớn.",
+      "source": "The London Times"
+    },
+    "leads": [
+      {
+        "id": "ai-lead-1",
+        "name": "Hiện trường phòng làm việc khóa kín",
+        "category": "Hiện Trường",
+        "address": "Tầng 2 dinh thự chính",
+        "district": "Trung tâm thành phố",
+        "description": "Khám xét kỹ khe cửa sổ và lò sưởi, bạn tìm thấy một sợi dây thép mỏng dùng để gạt then chốt từ bên ngoài và một tàn tro giấy nợ.",
+        "clueFound": "Móc dây thép mở then khóa và mẩu giấy nợ bị thiêu rụi một góc.",
+        "isCrucial": true
+      },
+      {
+        "id": "ai-lead-2",
+        "name": "Phòng nghi phạm - Người thừa kế gia tộc",
+        "category": "Nghi Phạm",
+        "address": "Biệt thự ngoại ô",
+        "district": "Ngoại ô thành phố",
+        "description": "Người thừa kế tỏ ra đau buồn nhưng trong ngăn kéo bàn trang điểm có cất giữ một lọ dung dịch chiết xuất từ rễ cây độc.",
+        "clueFound": "Lọ dung dịch chiết xuất độc dược và lá thư từ chối hoãn nợ.",
+        "isCrucial": true
+      },
+      {
+        "id": "ai-lead-3",
+        "name": "Khoa Pháp y & Giám định độc chất",
+        "category": "Pháp Y & Cơ Quan",
+        "address": "Bệnh viện trung tâm",
+        "district": "Khu bệnh viện",
+        "description": "Pháp y xác nhận độc tố gây suy hô hấp cấp chỉ trong vài phút mà không để lại vết kim tiêm trên da.",
+        "clueFound": "Chất độc được thẩm thấu qua bề mặt phong bì thư tay.",
+        "isCrucial": true
+      },
+      {
+        "id": "ai-lead-4",
+        "name": "Quán trọ & Trạm bưu chính liên tỉnh",
+        "category": "Địa Điểm Đô Thị",
+        "address": "Đầu đường lớn",
+        "district": "Khu bến tàu",
+        "description": "Nhân viên bưu điện xác nhận một người phụ nữ trùm khăn voan đen đã gửi bức thư tẩm sáp vào lúc 19h00.",
+        "clueFound": "Nhận diện người phụ nữ gửi bức thư tẩm độc.",
+        "isCrucial": false
+      }
+    ],
+    "questions": [
+      {
+        "id": "ai-q1",
+        "question": "Ai là kẻ chủ mưu sát hại nạn nhân?",
+        "points": 50,
+        "options": [
+          {
+            "id": "opt-a1",
+            "text": "Người thừa kế đang ngập trong nợ nần",
+            "isCorrect": true,
+            "explanation": "Chính xác! Động cơ là chiếm đoạt di chúc và xóa bỏ khoản nợ khổng lồ."
+          },
+          {
+            "id": "opt-a2",
+            "text": "Người quản gia",
+            "isCorrect": false,
+            "explanation": "Sai. Người quản gia có chứng cứ ngoại phạm chắc chắn."
+          }
+        ]
+      },
+      {
+        "id": "ai-q2",
+        "question": "Thủ đoạn hung thủ đưa chất độc vào phòng kín là gì?",
+        "points": 50,
+        "options": [
+          {
+            "id": "opt-a3",
+            "text": "Tẩm độc tố thẩm thấu qua lớp keo dán phong bì thư mật gửi cho nạn nhân",
+            "isCorrect": true,
+            "explanation": "Chính xác! Nạn nhân liếm phong bì hoặc mở bằng tay dẫn đến ngấm độc."
+          },
+          {
+            "id": "opt-a4",
+            "text": "Thả qua ống khói lò sưởi",
+            "isCorrect": false,
+            "explanation": "Sai."
+          }
+        ]
+      }
+    ],
+    "holmesSolution": {
+      "summary": "Thủ phạm vì muốn độc chiếm quyền thừa kế và xóa món nợ cờ bạc đã tẩm chất độc vào phong bì thư mật. Khi nạn nhân mở thư, chất độc ngấm qua da gây tử vong. Sau đó hắn dùng móc thép gạt chốt cửa sổ để tạo hiện trường phòng kín giả.",
+      "culprit": "Người thừa kế gia tộc",
+      "motive": "Chiếm đoạt gia sản thừa kế và xóa sạch khoản nợ khổng lồ.",
+      "method": "Tẩm độc dược thẩm thấu vào phong bì thư mật và tạo hiện trường phòng kín bằng móc thép.",
+      "holmesCritique": "Kẻ sát nhân tưởng rằng căn phòng khóa kín sẽ che giấu được tội ác, nhưng vật chứng trên phong bì thư đã lột trần mọi mưu mô."
+    },
+    "isCustom": true,
+    "isAIGenerated": true,
+    "createdAt": "2026-10-22T08:25:36.667Z"
+  },
+  {
+    "id": "case-ai-1792657497029",
+    "number": 20,
+    "title": "Hơi Thở Thần Chết Dưới Hầm Ngầm Lambeth",
+    "originalLore": "Sherlock Holmes Consulting Detective - Phong cách trinh thám suy luận cổ điển thời Victoria",
+    "collection": "The Thames Murders & Other Cases (Kinh Điển)",
+    "date": "Thứ Năm, ngày 14 tháng 10 năm 1888",
+    "difficulty": "Trung Bình",
+    "category": "Án Mạng Bí Ẩn",
+    "clueQuota": 11,
+    "holmesCluesUsed": 4,
+    "synopsis": "Tiến sĩ hóa học Alistair Vance được phát hiện đột tử trong phòng thí nghiệm bí mật kiên cố được khóa trái từ bên trong. Không có dấu vết đột nhập, không hề có thương tích ngoài da, ngoại trừ mùi hạnh nhân đắng thoang thoảng bên cạnh ngọn đèn dầu Argand đã cạn.",
+    "initialBriefing": "Một buổi sáng sương mù dày đặc bao phủ phố Baker, Thanh tra Lestrade hớt hải gõ cửa số 221B. 'Holmes, chúng tôi gặp phải một câu đố hóc búa ở bờ nam sông Thames! Tiến sĩ Alistair Vance, nhà luyện kim kiêm hóa học hàng đầu đang thực hiện dự án phủ hợp kim chống đạn bí mật cho Bộ Hải quân, vừa chết trong hầm ngầm của ông ta tại đầm lầy Lambeth. Cửa thép dày hai inch, then cài chặt bên trong, lính gác bên ngoài thề danh dự không một ai ra vào suốt đêm. Chìa khóa dự phòng duy nhất nằm trong két sắt của Bộ. Nếu tài liệu tuyệt mật lọt ra ngoài, ưu thế của Đế quốc trên biển sẽ tan thành mây khói!' Sherlock Holmes mỉm cười nhả một làn khói tẩu: 'Một phòng kín hoàn hảo luôn che giấu một thủ đoạn cơ học hoặc hóa học giản đơn. Watson, mang theo sổ tay, chúng ta đến Lambeth!'",
+    "victim": "Tiến sĩ Alistair Vance (52 tuổi), hội viên Hội Hoàng gia Luân Đôn, chuyên gia nghiên cứu hóa học ứng dụng cho Hải quân Hoàng gia Anh.",
+    "crimeScene": "Tầng hầm kiên cố dưới nền một xưởng thuộc da bỏ hoang tại Lambeth. Cửa sắt dày có chốt cài trong, lỗ thông hơi duy nhất được bọc lưới thép mắt cáo siêu nhỏ. Nạn nhân gục chết trên bàn làm việc, mặt thâm tím, bên cạnh là một chiếc đèn dầu Argand đã tắt và bản thiết kế công thức hóa học vẫn còn nguyên vẹn.",
+    "newspaperClipping": {
+      "title": "BƯỚC ĐỘT PHÁ CỦA NGÀNH LUYỆN KIM QUÂN SỰ",
+      "date": "12 Tháng Mười, 1888",
+      "content": "Bộ Hải quân xác nhận Giáo sư Alistair Vance sắp hoàn tất công thức hợp kim chống ăn mòn và chịu lực phi thường cho vỏ tàu chiến. Giá cổ phiếu của tập đoàn đóng tàu Blackwall lập tức tăng vọt, trong khi nghiệp đoàn luyện kim Sheffield bày tỏ lo ngại về việc độc quyền công nghệ mới này.",
+      "source": "The Daily Telegraph"
+    },
+    "leads": [
+      {
+        "id": "lead-1",
+        "name": "Hiện Trường Phòng Thí Nghiệm Bí Mật",
+        "category": "Hiện Trường",
+        "address": "Xưởng thuộc da cũ, ngõ Narrow Wall, Lambeth",
+        "district": "Nam London (Lambeth)",
+        "description": "Cửa sắt phải dùng xà bén cạy phá chốt trong mới mở được. Trên bàn, nạn nhân gục đầu xuống bản vẽ công thức số VII. Các lọ hóa chất đều nguyên niêm phong. Đáng chú ý, chiếc đèn Argand trên bàn có bấc đèn bị cắt ngắn bất thường, đáy bình chứa dầu có một lớp cặn kết tinh màu vàng nhạt lạ lùng. Ống khói thủy tinh của đèn bám muội đen có mùi hăng gắt.",
+        "clueFound": "Cặn kết tinh màu vàng trong bình dầu đèn và bấc đèn bị tẩm hóa chất lạ; một mẩu giấy ghi chú viết dở: 'Nhiệt độ phòng tăng nhanh, ngực khó thở...'",
+        "isCrucial": true
+      },
+      {
+        "id": "lead-2",
+        "name": "Henry Sterling - Trợ Lý Nghiên Cứu",
+        "category": "Nghi Phạm",
+        "address": "Nhà trọ số 14 Phố Hercules, Lambeth",
+        "district": "Nam London (Lambeth)",
+        "description": "Sterling là học trò cưng của Vance, dáng vẻ thư sinh nhưng đôi mắt thâm quầng. Anh ta khẳng định: 'Tôi rời phòng thí nghiệm lúc 8 giờ tối theo lệnh thầy để nộp báo cáo tiến độ. Lúc đi, thầy Vance tự tay cài chốt cửa trong như thường lệ. Tôi đến quán rượu The Black Dog uống bia cùng hai sĩ quan hải quân cho đến tận nửa đêm.' Khi lục soát bàn làm việc của Sterling, phát hiện anh ta nợ cờ bạc một khoản tiền khổng lồ lên tới 800 bảng.",
+        "clueFound": "Giấy nợ cờ bạc đến hạn thanh toán trong tuần này và một hóa đơn mua 200ml dầu cá voi tinh chế cùng axit sulfuric đậm đặc từ tiệm thuốc tây.",
+        "isCrucial": true
+      },
+      {
+        "id": "lead-3",
+        "name": "Phòng Khám Nghiệm Bệnh Viện St. Thomas",
+        "category": "Pháp Y & Cơ Quan",
+        "address": "Cầu Westminster, Lambeth",
+        "district": "Nam London (Lambeth)",
+        "description": "Bác sĩ pháp y Mortimer báo cáo: 'Nạn nhân chết vì ngộ độc khí Hydro Cyanide (Axit Prussic) cực kỳ đậm đặc, dẫn đến ngừng hô hấp tức thì trong vòng 5-10 phút. Tuy nhiên dạ dày hoàn toàn không có độc, nghĩa là ông ta không hề uống hay ăn phải chất độc. Độc chất xâm nhập hoàn toàn qua đường hô hấp trong một không gian kín.'",
+        "clueFound": "Báo cáo giải phẫu khẳng định chất độc dạng khí được hít qua đường hô hấp; nồng độ cyanide trong niêm mạc mũi và phổi cực cao.",
+        "isCrucial": true
+      },
+      {
+        "id": "lead-4",
+        "name": "Quán Rượu The Black Dog",
+        "category": "Địa Điểm Đô Thị",
+        "address": "Góc đường Lambeth Walk",
+        "district": "Nam London (Lambeth)",
+        "description": "Chủ quán xác nhận Henry Sterling có mặt từ 8 giờ 30 tối đến gần 12 giờ đêm, chơi bài và uống rượu liên tục cùng hai trung úy hải quân. Tuy nhiên, người phục vụ bàn nhớ lại: 'Cậu ta luôn nhìn chằm chằm vào chiếc đồng hồ bỏ túi, trông vô cùng bồn chồn. Đúng 9 giờ 30 tối, cậu ta lẩm bẩm: 'Giờ này chắc xong rồi' rồi gọi thêm một ly rượu mạnh.'",
+        "clueFound": "Bằng chứng ngoại phạm của Henry Sterling là vững chắc về mặt thể xác tại thời điểm nạn nhân tử vong (khoảng 9h30 - 10h00 tối).",
+        "isCrucial": false
+      },
+      {
+        "id": "lead-5",
+        "name": "Xưởng Cơ Khí Chính Xác Byrne & Sons",
+        "category": "Địa Điểm Đô Thị",
+        "address": "Ngõ Mint, Southwark",
+        "district": "Đông Nam London",
+        "description": "Ông Byrne, thợ cơ khí lão luyện từng lắp đặt hệ thống thông gió và đèn cho phòng thí nghiệm. Byrne tiết lộ: 'Ba ngày trước, cậu trợ lý Sterling đến nhờ tôi tiện một viên nang mỏng bằng hợp kim thiếc-chì đặc biệt có nhiệt độ nóng chảy thấp (khoảng 60 độ C) dạng viên con nhộng rỗng ruột. Cậu ta bảo dùng để thử nghiệm phản ứng tự ngắt nhiệt cho ngọn đèn bảo hộ.'",
+        "clueFound": "Bản vẽ viên nang thiếc-chì tự tan chảy ở nhiệt độ xác định; Sterling đã đặt làm hai viên.",
+        "isCrucial": true
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Ai là kẻ đã sát hại Tiến sĩ Alistair Vance?",
+        "points": 50,
+        "options": [
+          {
+            "id": "opt-1a",
+            "text": "Henry Sterling - Người trợ lý nghiên cứu",
+            "isCorrect": true,
+            "explanation": "Henry Sterling là người duy nhất có kiến thức hóa học, có mặt trước khi cửa đóng và chuẩn bị cơ chế phát tán độc chất hẹn giờ."
+          },
+          {
+            "id": "opt-1b",
+            "text": "Lord George Bellingham - Đại diện Bộ Hải quân",
+            "isCorrect": false,
+            "explanation": "Lord Bellingham chỉ mong muốn công thức hoàn thành sớm để trang bị cho hạm đội và không hề biết vị trí hầm ngầm."
+          },
+          {
+            "id": "opt-1c",
+            "text": "Thợ cơ khí Byrne",
+            "isCorrect": false,
+            "explanation": "Byrne chỉ là người gia công viên nang kim loại theo đơn đặt hàng mà không biết mục đích thực sự."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Phương thức tạo ra căn phòng kín tử thần và thủ đoạn giải phóng chất độc là gì?",
+        "points": 50,
+        "options": [
+          {
+            "id": "opt-2a",
+            "text": "Tạo cơ chế phóng độc hẹn giờ bằng nhiệt trong đèn Argand: dùng viên nang thiếc dễ nóng chảy giấu muối cyanide thả vào dầu đèn có pha axit",
+            "isCorrect": true,
+            "explanation": "Sterling đã pha axit sulfuric loãng vào lớp dầu và thả viên nang thiếc chứa muối kali cyanide vào đáy đèn. Khi Vance thắp đèn làm việc, nhiệt độ đèn truyền xuống làm tan chảy lớp vỏ thiếc sau khoảng 1 giờ, muối cyanide phản ứng với axit bốc hơi thành khí cực độc Hydro Cyanide lấp đầy căn phòng đóng kín."
+          },
+          {
+            "id": "opt-2b",
+            "text": "Bơm khí độc qua đường ống thông gió mắt cáo từ phía trên mặt đất",
+            "isCorrect": false,
+            "explanation": "Lưới mắt cáo trên trần còn nguyên vẹn, không có dấu vết bồ hóng hay ống dẫn nối vào."
+          },
+          {
+            "id": "opt-2c",
+            "text": "Tẩm thuốc độc ngấm qua da vào tài liệu công thức số VII",
+            "isCorrect": false,
+            "explanation": "Khám nghiệm pháp y khẳng định nạn nhân tử vong do hít phải khí độc, lòng bàn tay không hề có phản ứng ngộ độc tiếp xúc."
+          }
+        ]
+      }
+    ],
+    "holmesSolution": {
+      "summary": "Vụ án phòng kín tưởng chừng siêu nhiên thực chất là một cái bẫy hóa học hẹn giờ tinh vi. Henry Sterling, bị dồn vào chân tường bởi món nợ cờ bạc 800 bảng và bị một hãng thép tư nhân mua chuộc, đã lên kế hoạch đoạt mạng thầy mình để sau đó thừa kế vị trí chủ nhiệm đề án và bán phát minh. Hắn biết rõ thói quen luôn thắp đèn Argand và khóa trái cửa hầm để tập trung làm việc đêm của Tiến sĩ Vance. Sterling đặt làm viên nang kim loại có nhiệt độ nóng chảy thấp (hợp kim Wood/thiếc-chì), nhét muối kali cyanide vào trong rồi thả vào bình dầu đèn đã ngấm ngầm pha axit hữu cơ phản ứng chậm. Khi nạn nhân vào phòng và thắp đèn lúc 8h30 tối, Sterling thong thả đến quán rượu tạo bằng chứng ngoại phạm hoàn hảo. Khoảng 9h30 tối, sức nóng từ ngọn đèn truyền xuống đáy bình làm vỏ nang kim loại tan chảy, giải phóng muối cyanide vào axit, tạo ra luồng khí Hydro Cyanide chết người ngay trước mũi nạn nhân mà không phát ra bất kỳ tiếng động nào.",
+      "culprit": "Henry Sterling",
+      "motive": "Áp lực nợ cờ bạc khổng lồ và mưu đồ chiếm đoạt công thức hợp kim quý giá để bán cho các tập đoàn công nghiệp đối thủ.",
+      "method": "Bẫy hóa học hẹn giờ nhiệt học bên trong đèn dầu Argand trong phòng kín kín gió.",
+      "holmesCritique": "Một thủ đoạn khéo léo nhưng kẻ thủ ác đã phạm sai lầm kinh điển của những kẻ giả tạo: cố tình tạo một bằng chứng ngoại phạm quá hoàn hảo và một câu nói hớ hênh tại quán rượu. Khi loại trừ tất cả những điều bất khả, thì điều còn lại dù khó tin đến đâu vẫn là sự thật!"
+    },
+    "isCustom": true,
+    "isAIGenerated": true,
+    "createdAt": "2026-10-22T08:27:01.142Z"
+  },
+  {
+    "id": "case-ai-1792657655811",
+    "number": 22,
+    "title": "Vụ Án Bí Mật Bí ẩn phòng thí nghiệm bí mật",
+    "originalLore": "MicroMacro: Crime City - Bản Ghi Chép Đặc Biệt AI",
+    "collection": "MicroMacro: Crime City",
+    "date": "Luân Đôn, Thời Khắc Định Mệnh",
+    "difficulty": "Trung Bình",
+    "category": "Án Mạng Bí Ẩn",
+    "clueQuota": 11,
+    "holmesCluesUsed": 4,
+    "synopsis": "Một bí ẩn đan xen giữa những âm mưu quyền lực tại Bí ẩn phòng thí nghiệm bí mật. Nạn nhân để lại lời nhắn dở dang trước khi trút hơi thở cuối cùng.",
+    "initialBriefing": "Tiếng gõ cửa gấp gáp vang lên tại số 221B Baker Street. Thân chủ hốt hoảng bước vào trao cho Holmes một chiếc hộp bọc nhung dính vệt máu khô. Một nhân vật có thế lực tại Bí ẩn phòng thí nghiệm bí mật vừa qua đời trong tình cảnh kỳ quái: phòng khóa kín, ngọn nến thơm tỏa mùi xạ hương lạ, và một bức thư bị đốt dở trong lò sưởi. Vụ án đòi hỏi sự quan sát nhạy bén của các thám tử để lật tẩy kẻ thủ ác trong hạn mức 11 manh mối.",
+    "victim": "Nhân vật quyền quý bí ẩn",
+    "crimeScene": "Dinh thự trung tâm Bí ẩn phòng thí nghiệm bí mật",
+    "newspaperClipping": {
+      "title": "Bi Kịch Bất Ngờ Tại Bí ẩn phòng thí nghiệm bí mật",
+      "date": "Bản in đặc biệt",
+      "content": "Cảnh sát đô thị đang rà soát mọi đầu mối sau cái chết đột ngột của một nhân vật có tầm ảnh hưởng lớn.",
+      "source": "The London Times"
+    },
+    "leads": [
+      {
+        "id": "ai-lead-1",
+        "name": "Hiện trường phòng làm việc khóa kín",
+        "category": "Hiện Trường",
+        "address": "Tầng 2 dinh thự chính",
+        "district": "Trung tâm thành phố",
+        "description": "Khám xét kỹ khe cửa sổ và lò sưởi, bạn tìm thấy một sợi dây thép mỏng dùng để gạt then chốt từ bên ngoài và một tàn tro giấy nợ.",
+        "clueFound": "Móc dây thép mở then khóa và mẩu giấy nợ bị thiêu rụi một góc.",
+        "isCrucial": true
+      },
+      {
+        "id": "ai-lead-2",
+        "name": "Phòng nghi phạm - Người thừa kế gia tộc",
+        "category": "Nghi Phạm",
+        "address": "Biệt thự ngoại ô",
+        "district": "Ngoại ô thành phố",
+        "description": "Người thừa kế tỏ ra đau buồn nhưng trong ngăn kéo bàn trang điểm có cất giữ một lọ dung dịch chiết xuất từ rễ cây độc.",
+        "clueFound": "Lọ dung dịch chiết xuất độc dược và lá thư từ chối hoãn nợ.",
+        "isCrucial": true
+      },
+      {
+        "id": "ai-lead-3",
+        "name": "Khoa Pháp y & Giám định độc chất",
+        "category": "Pháp Y & Cơ Quan",
+        "address": "Bệnh viện trung tâm",
+        "district": "Khu bệnh viện",
+        "description": "Pháp y xác nhận độc tố gây suy hô hấp cấp chỉ trong vài phút mà không để lại vết kim tiêm trên da.",
+        "clueFound": "Chất độc được thẩm thấu qua bề mặt phong bì thư tay.",
+        "isCrucial": true
+      },
+      {
+        "id": "ai-lead-4",
+        "name": "Quán trọ & Trạm bưu chính liên tỉnh",
+        "category": "Địa Điểm Đô Thị",
+        "address": "Đầu đường lớn",
+        "district": "Khu bến tàu",
+        "description": "Nhân viên bưu điện xác nhận một người phụ nữ trùm khăn voan đen đã gửi bức thư tẩm sáp vào lúc 19h00.",
+        "clueFound": "Nhận diện người phụ nữ gửi bức thư tẩm độc.",
+        "isCrucial": false
+      }
+    ],
+    "questions": [
+      {
+        "id": "ai-q1",
+        "question": "Ai là kẻ chủ mưu sát hại nạn nhân?",
+        "points": 50,
+        "options": [
+          {
+            "id": "opt-a1",
+            "text": "Người thừa kế đang ngập trong nợ nần",
+            "isCorrect": true,
+            "explanation": "Chính xác! Động cơ là chiếm đoạt di chúc và xóa bỏ khoản nợ khổng lồ."
+          },
+          {
+            "id": "opt-a2",
+            "text": "Người quản gia",
+            "isCorrect": false,
+            "explanation": "Sai. Người quản gia có chứng cứ ngoại phạm chắc chắn."
+          }
+        ]
+      },
+      {
+        "id": "ai-q2",
+        "question": "Thủ đoạn hung thủ đưa chất độc vào phòng kín là gì?",
+        "points": 50,
+        "options": [
+          {
+            "id": "opt-a3",
+            "text": "Tẩm độc tố thẩm thấu qua lớp keo dán phong bì thư mật gửi cho nạn nhân",
+            "isCorrect": true,
+            "explanation": "Chính xác! Nạn nhân liếm phong bì hoặc mở bằng tay dẫn đến ngấm độc."
+          },
+          {
+            "id": "opt-a4",
+            "text": "Thả qua ống khói lò sưởi",
+            "isCorrect": false,
+            "explanation": "Sai."
+          }
+        ]
+      }
+    ],
+    "holmesSolution": {
+      "summary": "Thủ phạm vì muốn độc chiếm quyền thừa kế và xóa món nợ cờ bạc đã tẩm chất độc vào phong bì thư mật. Khi nạn nhân mở thư, chất độc ngấm qua da gây tử vong. Sau đó hắn dùng móc thép gạt chốt cửa sổ để tạo hiện trường phòng kín giả.",
+      "culprit": "Người thừa kế gia tộc",
+      "motive": "Chiếm đoạt gia sản thừa kế và xóa sạch khoản nợ khổng lồ.",
+      "method": "Tẩm độc dược thẩm thấu vào phong bì thư mật và tạo hiện trường phòng kín bằng móc thép.",
+      "holmesCritique": "Kẻ sát nhân tưởng rằng căn phòng khóa kín sẽ che giấu được tội ác, nhưng vật chứng trên phong bì thư đã lột trần mọi mưu mô."
+    },
+    "isCustom": true,
+    "isAIGenerated": true,
+    "createdAt": "2026-10-22T08:27:36.665Z"
+  }
+]
